@@ -33,5 +33,5 @@ jobs:
       run: |
         docker run -d \
           --name python-flas-ci \
-          -p 8080:8080 \
+          -p 5000:5000 \
           ${{ secrets.DOCKER_USERNAME }}/python-flas-ci:latest
